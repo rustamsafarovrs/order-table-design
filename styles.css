@@ -5,8 +5,15 @@ body {
   background-color: #000;
   color: white;
 }
+.orders {
+  display: flex;
+  flex-direction: row;
+  min-width: 300px;
+}
 .order {
   margin: 1.2rem;
+  max-width: 300px;
+  min-width: 200px;
 }
 .order-number {
   font-weight: 800;
@@ -46,6 +53,7 @@ body {
   margin-right: 6px;
 }
 .order-item-name {
+  padding-right: 5px;
 }
 .order-actions {
   display: flex;
