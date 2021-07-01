@@ -1,0 +1,68 @@
+* {
+  font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: #000;
+  color: white;
+}
+.order {
+  margin: 1.2rem;
+}
+.order-number {
+  font-weight: 800;
+  margin-bottom: 0.2rem;
+}
+.waiter-name {
+  margin-top: 0;
+  font-weight: 300;
+  font-size: 0.8em;
+}
+
+.orders-items {
+  display: flex;
+  color: #000;
+}
+.order-item {
+  background-color: white;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  overflow: hidden;
+  margin-bottom: 1.3rem;
+}
+.order-item-info {
+  margin: 7px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.order-item-date {
+  color: rgb(175, 170, 170);
+  font-weight: 400;
+  font-size: 0.89em;
+}
+.order-item-count {
+  margin-right: 6px;
+}
+.order-item-name {
+}
+.order-actions {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: stretch;
+}
+.btn-start {
+  border: none;
+  background-color: rgb(218, 168, 5);
+  width: inherit;
+  padding: 0.4em;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.2em;
+  transition: background-color 0.5s;
+}
+.btn-start:hover {
+  background-color: rgb(163, 126, 2);
+}
